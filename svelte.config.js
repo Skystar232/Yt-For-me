@@ -18,9 +18,9 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 		}),
-		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/YT-For-me' : '',
-        },
+		//paths: {
+        //    base: process.env.NODE_ENV === 'production' ? '/YT-For-me' : '',
+        //},
 		files: {
             assets: 'static',
             lib: 'src/components',
