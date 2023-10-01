@@ -10,7 +10,7 @@
 
 </script>
 
-<hi>Welcome To Svelte Kit</hi>
+
 
 <div class="flex subscription justify-between px-8 flex-wrap">
     <Thumb
@@ -18,7 +18,8 @@
      thumbnail = "photo1.jpg"
      avatar = "photo2.jpg"
      creator = "Jonny jpg"
-     views = ""
+     views = "23"
+     id={1}
      loading = {loading}
      />
     <Thumb 
@@ -26,7 +27,8 @@
      thumbnail = "photo3.jpg"
      avatar = "photo4.jpg"
      creator = "Jonny jpg"
-     views = ""
+     views = "70"
+     id={2}
      loading = {loading}
      />
     <Thumb 
@@ -34,7 +36,8 @@
      thumbnail = "photo5.jpg"
      avatar = "photo6.jpg"
      creator = "Jonny jpg"
-     views = ""
+     views = "20"
+     id={3}
      loading = {loading}
      />
     <Thumb 
@@ -42,7 +45,8 @@
     thumbnail = "photo7.jpg"
     avatar = "photo8.jpg"
     creator = "Jonny jpg"
-    views = ""
+    views = "2"
+    id={4}
     loading = {loading}
     />
     <Thumb />
